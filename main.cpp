@@ -4,7 +4,7 @@
 
 #define MAX_LEN 1000
 
-// Fonction de chiffrement César
+// Fonction de chiffrement César,
 void chiffrement_cesar(char *texte, int decalage) {
     for (int i = 0; texte[i] != '\0'; i++) {
         if (isalpha(texte[i])) {
